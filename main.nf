@@ -5,7 +5,7 @@ params.outdir = "results"
 
 process get_input_file {
 
-output: 
+  output: 
   path 'input.txt' 
 
   // scripts must be in the 'bin' folder
