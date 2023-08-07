@@ -14,4 +14,4 @@
 #  JAVA_HOME: 
 #
 export JAVA_HOME=$(readlink -f `which javac` | sed "s:/bin/javac::")
-nextflow run main.nf -with-singularity library://mcenirm/tutorial/fortune-cowsay-lolcat:latest
+nextflow run main.nf
