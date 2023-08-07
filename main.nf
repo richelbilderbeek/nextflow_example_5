@@ -1,7 +1,6 @@
 #!/usr/bin/env nextflow
 
 project_dir = projectDir
-container = 'library://mcenirm/tutorial/fortune-cowsay-lolcat:latest'
 params.outdir = "results"
 
 process get_input_file {

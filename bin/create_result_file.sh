@@ -13,4 +13,4 @@ if [ ! -e "$input_filename" ]; then
 fi
 
 
-cat $input_filename | toilet | cowsay -n > result.txt
+cat $input_filename | rev > result.txt
