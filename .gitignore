@@ -1,0 +1,5 @@
+.nextflow.*
+.nextflow
+work/
+input.txt
+result.txt
